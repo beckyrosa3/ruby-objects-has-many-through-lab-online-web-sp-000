@@ -19,7 +19,7 @@ def initialize(name)
    end
  end
 
- def artist
+ def artists
    song.map do |song|
      song.artist
    end
