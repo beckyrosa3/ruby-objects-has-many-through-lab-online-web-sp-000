@@ -10,4 +10,8 @@ def initialize(name, artist, genre)
     @genre = genre
     @@all << self
   end
+
+  def self.all
+    @@all 
+  end
 end
