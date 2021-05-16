@@ -22,6 +22,6 @@ attr_accessor :name
       appointment.doctor == self
     end
   end
-    
+
   end
 end
