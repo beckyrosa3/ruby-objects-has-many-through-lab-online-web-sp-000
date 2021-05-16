@@ -18,4 +18,10 @@ def initialize(name)
      song.genre == self
    end
  end
+
+ def artist
+   song.map do |song|
+     song.artist
+   end
+ end
 end
